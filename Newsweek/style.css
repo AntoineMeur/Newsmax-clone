@@ -1,0 +1,106 @@
+
+/*#une {
+    padding: 0;
+    margin-bottom: 10px;
+    height:800px;
+    background-image: url(./images/main/main_main.jpg);
+    background-size: cover;
+
+}*/
+
+.navbar {
+    margin-bottom:0;
+}
+
+.sidebar {
+    margin: 30px 0;
+}
+
+h1 {
+text-transform: uppercase;
+
+}
+
+h2, h1, p {
+    text-align: center;
+}
+
+#une2 {
+    height: 700px;
+}
+
+#une3 {
+    background-color:azure;
+    height: 650px;
+}
+
+h2 {
+    color: red;
+}
+
+#une3 h2 {
+    color:blue;
+}
+
+
+#une img {
+    width: 100%;
+    object-fit: cover;
+    }
+
+
+.gradient {
+    /*background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 1));*/
+    border-top: 5px double red;
+    height: 200px;
+    /*margin-top: -200px;
+    position: relative;*/
+
+    }
+
+ul {
+    color:red;
+}
+
+.puce {
+    color:black;
+    font-weight: bold;
+
+}
+
+.bouton {
+    text-align: center;
+    box-shadow: 2px 2px;
+}
+
+.sidebar li {
+    border-bottom: 1px solid grey;
+    margin: 10px 0 ;
+    padding: 20px 0;
+}
+
+
+#une {
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 20px;
+    padding: 0;
+
+}
+
+/*#article {
+    width: 100%;
+}*/
+
+/*#article img {
+    object-fit: cover;
+}*/
+
+@media all and (min-width: 768px) {
+    .gradient {
+        margin-top: -200px;
+        position: relative;
+        background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 1));   
+    }
+
+}
